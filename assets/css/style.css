@@ -75,9 +75,10 @@ h1,h2 {
          animation-name: hero-zoom; 
          animation-duration: 5s;
          animation-fill-mode: forwards;
-    }
+            }
 
     /*creates the level of zoom for the hero image*/
+
     @keyframes hero-zoom {
         from{
             transform: scale(1);
@@ -177,7 +178,7 @@ h1,h2 {
 }
 
 #circle-cover-bg {
-    background-image: url(../images/ethos-center-image.jpg) no repeat center center;
+    background: url('../images/ethos-center-image.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
