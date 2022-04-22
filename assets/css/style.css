@@ -163,7 +163,7 @@ h1,h2 {
    #welcome {
        text-align: center;
        margin: 20px 0;
-       font-size: 280% ;
+       font-size: 280%;
    }
 
 #circle-container {
@@ -171,7 +171,7 @@ h1,h2 {
     height: 300px;
     padding: 30px;
     border-style: solid;
-    border-color: #cccccc;
+    border-color: #ccc;
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
@@ -184,7 +184,21 @@ h1,h2 {
 }
 
 #times {
-    background-image: url('../images/dublin-city.webp') no-repeat center center;
+    background-image: url('../images/times-background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
 }
-
- 
+#times div {
+    color: #ffffff;
+    background-color: rgb(0, 0, 0,.6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box ;
+}
