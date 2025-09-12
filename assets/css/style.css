@@ -168,7 +168,7 @@ main {
 }
 
 #circle-cover-bg {
-    background: url('../images/reasons-image.webp') no-repeat top center / cover;
+    background: url('../images/ethos-center-image.jpg') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -188,7 +188,7 @@ main {
 /* Meetup Times section */
 
 #times {
-    background: url('../images/dublin-city.webp') no-repeat center/cover;
+    background: url('../images/times-background.webp') no-repeat center/cover;
     /* Handles responsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
