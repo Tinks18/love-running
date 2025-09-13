@@ -300,6 +300,8 @@ Merge change
 
     background-position: 75%;
 
+    background-repeat: no-repeat;
+
     padding: 20px 10% 0 10%;
 
     flex-grow: 1;
